@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const store = require('./store/datastore');
-const initialStoreData = require('./store/data');
-const Musician = require('./models/musician');
+const initialStoreData = ('./store/data');
+const Musician = ('./models/musician');
 const musicianRoutes = require('./routes/musician');
 
 const app = express();
